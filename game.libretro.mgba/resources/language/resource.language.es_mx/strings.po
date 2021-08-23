@@ -82,3 +82,7 @@ msgstr "Mezcla entre cuadros"
 msgctxt "#30013"
 msgid "Enable Game Boy Player Rumble (requires restart)"
 msgstr "Activar Game Boy Player Rumble (requiere reiniciar)"
+
+msgctxt "#30014"
+msgid "Set default Game Boy palette"
+msgstr ""

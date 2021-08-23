@@ -82,3 +82,7 @@ msgstr ""
 msgctxt "#30013"
 msgid "Enable Game Boy Player Rumble (requires restart)"
 msgstr ""
+
+msgctxt "#30014"
+msgid "Set default Game Boy palette"
+msgstr ""
