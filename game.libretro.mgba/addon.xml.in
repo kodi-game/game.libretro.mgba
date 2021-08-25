@@ -25,6 +25,6 @@
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 		<summary lang="en_GB">Nintendo - Game Boy Advance (mGBA)</summary>
-		<description lang="en_GB">mGBA aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.Supported files: .gba, .gb, .gbc, .sgb</description>
+		<description lang="en_GB">mGBA aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.</description>
 	</extension>
 </addon>

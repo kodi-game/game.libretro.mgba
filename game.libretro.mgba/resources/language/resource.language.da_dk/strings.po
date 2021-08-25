@@ -22,7 +22,7 @@ msgid "Nintendo - Game Boy Advance (mGBA)"
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "mGBA aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.Supported files: .gba, .gb, .gbc, .sgb"
+msgid "mGBA aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack."
 msgstr ""
 
 msgctxt "#30000"
