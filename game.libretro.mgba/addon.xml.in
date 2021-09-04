@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.mgba"
 		name="Nintendo - Game Boy Advance (mGBA)"
-		version="0.0.1.24"
+		version="0.0.1.25"
 		provider-name="endrift">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -13,6 +13,7 @@
 		<extensions>gba|gb|gbc|sgb</extensions>
 		<supports_vfs>true</supports_vfs>
 		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>MPLv2.0</license>
