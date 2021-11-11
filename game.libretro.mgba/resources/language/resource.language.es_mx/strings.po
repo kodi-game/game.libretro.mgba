@@ -30,57 +30,117 @@ msgid "Settings"
 msgstr "Ajustes"
 
 msgctxt "#30001"
-msgid "Solar Sensor Level"
-msgstr "Nivel de sensor solar"
+msgid "Game Boy Model (Restart)"
+msgstr ""
 
 msgctxt "#30002"
-msgid "Allow Opposing Directional Input"
-msgstr "Permitir entrada direccional opuesta"
+msgid "Use BIOS File if Found (Restart)"
+msgstr ""
 
 msgctxt "#30003"
-msgid "Game Boy Model (requires restart)"
-msgstr "Modelo de Game Boy (requiere reiniciar)"
+msgid "Skip BIOS Intro (Restart)"
+msgstr ""
 
 msgctxt "#30004"
-msgid "Use BIOS File if Found (requires restart)"
-msgstr "Utilizar archivo de BIOS si se encuentra (requiere reiniciar)"
+msgid "Default Game Boy Palette"
+msgstr ""
 
 msgctxt "#30005"
-msgid "Skip BIOS Intro (requires restart)"
-msgstr "Saltar Intro del BIOS (requiere reiniciar)"
+msgid "Use Super Game Boy Borders (Restart)"
+msgstr ""
 
 msgctxt "#30006"
-msgid "Use Super Game Boy Borders (requires restart)"
-msgstr "Utilizar Bordes del Super Game Boy (requiere reiniciar)"
+msgid "Color Correction"
+msgstr ""
 
 msgctxt "#30007"
-msgid "Idle Loop Removal"
-msgstr "Remoción de bucle en reposo"
+msgid "Interframe Blending"
+msgstr ""
 
 msgctxt "#30008"
-msgid "Frameskip"
-msgstr "Saltar cuadros"
+msgid "Audio Filter"
+msgstr ""
 
 msgctxt "#30009"
-msgid "Frameskip Threshold (%)"
-msgstr "Porcentaje (%) de salto de cuadros"
+msgid "Audio Filter Level"
+msgstr ""
 
 msgctxt "#30010"
-msgid "Frameskip Interval"
-msgstr "Intervalo de salto de cuadros"
+msgid "Allow Opposing Directional Input"
+msgstr ""
 
 msgctxt "#30011"
-msgid "Color Correction"
-msgstr "Corrección de color"
+msgid "Solar Sensor Level"
+msgstr ""
 
 msgctxt "#30012"
-msgid "Interframe Blending"
-msgstr "Mezcla entre cuadros"
+msgid "Game Boy Player Rumble (Restart)"
+msgstr ""
 
 msgctxt "#30013"
-msgid "Enable Game Boy Player Rumble (requires restart)"
-msgstr "Activar Game Boy Player Rumble (requiere reiniciar)"
+msgid "Idle Loop Removal"
+msgstr ""
 
 msgctxt "#30014"
-msgid "Set default Game Boy palette"
+msgid "Frameskip"
 msgstr ""
+
+msgctxt "#30015"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Frameskip Interval"
+msgstr ""
+
+#~ msgctxt "#30001"
+#~ msgid "Solar Sensor Level"
+#~ msgstr "Nivel de sensor solar"
+
+#~ msgctxt "#30002"
+#~ msgid "Allow Opposing Directional Input"
+#~ msgstr "Permitir entrada direccional opuesta"
+
+#~ msgctxt "#30003"
+#~ msgid "Game Boy Model (requires restart)"
+#~ msgstr "Modelo de Game Boy (requiere reiniciar)"
+
+#~ msgctxt "#30004"
+#~ msgid "Use BIOS File if Found (requires restart)"
+#~ msgstr "Utilizar archivo de BIOS si se encuentra (requiere reiniciar)"
+
+#~ msgctxt "#30005"
+#~ msgid "Skip BIOS Intro (requires restart)"
+#~ msgstr "Saltar Intro del BIOS (requiere reiniciar)"
+
+#~ msgctxt "#30006"
+#~ msgid "Use Super Game Boy Borders (requires restart)"
+#~ msgstr "Utilizar Bordes del Super Game Boy (requiere reiniciar)"
+
+#~ msgctxt "#30007"
+#~ msgid "Idle Loop Removal"
+#~ msgstr "Remoción de bucle en reposo"
+
+#~ msgctxt "#30008"
+#~ msgid "Frameskip"
+#~ msgstr "Saltar cuadros"
+
+#~ msgctxt "#30009"
+#~ msgid "Frameskip Threshold (%)"
+#~ msgstr "Porcentaje (%) de salto de cuadros"
+
+#~ msgctxt "#30010"
+#~ msgid "Frameskip Interval"
+#~ msgstr "Intervalo de salto de cuadros"
+
+#~ msgctxt "#30011"
+#~ msgid "Color Correction"
+#~ msgstr "Corrección de color"
+
+#~ msgctxt "#30012"
+#~ msgid "Interframe Blending"
+#~ msgstr "Mezcla entre cuadros"
+
+#~ msgctxt "#30013"
+#~ msgid "Enable Game Boy Player Rumble (requires restart)"
+#~ msgstr "Activar Game Boy Player Rumble (requiere reiniciar)"
