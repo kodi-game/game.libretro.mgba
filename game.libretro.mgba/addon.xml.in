@@ -26,6 +26,7 @@
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 		<summary lang="en_GB">Nintendo - Game Boy Advance (mGBA)</summary>
+		<description lang="da_DK">mGBA sigter mod at være hurtigere og mere præcis end mange eksisterende Game Boy Advance-emulatorer, samt tilføje funktioner, som andre emulatorer mangler.</description>
 		<description lang="en_GB">mGBA aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.</description>
 	</extension>
 </addon>
