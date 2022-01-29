@@ -46,52 +46,104 @@ msgid "Default Game Boy Palette"
 msgstr "Standard Game Boy-palette"
 
 msgctxt "#30005"
-msgid "Use Super Game Boy Borders (Restart)"
-msgstr "Brug Super Game Boy-kanter (genstart)"
+msgid "Hardware Preset Game Boy Palettes (Restart)"
+msgstr ""
 
 msgctxt "#30006"
-msgid "Color Correction"
-msgstr "Farvekorrektion"
+msgid "Use Super Game Boy Borders (Restart)"
+msgstr ""
 
 msgctxt "#30007"
-msgid "Interframe Blending"
-msgstr "Interframe-blanding"
+msgid "Color Correction"
+msgstr ""
 
 msgctxt "#30008"
-msgid "Audio Filter"
-msgstr "Lydfilter"
+msgid "Interframe Blending"
+msgstr ""
 
 msgctxt "#30009"
-msgid "Audio Filter Level"
-msgstr "Niveau for lydfilter"
+msgid "Audio Filter"
+msgstr ""
 
 msgctxt "#30010"
-msgid "Allow Opposing Directional Input"
-msgstr "Tillad input for modsat retning"
+msgid "Audio Filter Level"
+msgstr ""
 
 msgctxt "#30011"
-msgid "Solar Sensor Level"
-msgstr "Niveau for solsensor"
+msgid "Allow Opposing Directional Input"
+msgstr ""
 
 msgctxt "#30012"
-msgid "Game Boy Player Rumble (Restart)"
-msgstr "Rumble for Game Boy-spiller (genstart)"
+msgid "Solar Sensor Level"
+msgstr ""
 
 msgctxt "#30013"
-msgid "Idle Loop Removal"
-msgstr "Fjernelse af loop ved inaktivitet"
+msgid "Game Boy Player Rumble (Restart)"
+msgstr ""
 
 msgctxt "#30014"
-msgid "Frameskip"
-msgstr "Spring frame over"
+msgid "Idle Loop Removal"
+msgstr ""
 
 msgctxt "#30015"
-msgid "Frameskip Threshold (%)"
-msgstr "Tærskel når der springes en frame over (%)"
+msgid "Frameskip"
+msgstr ""
 
 msgctxt "#30016"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30017"
 msgid "Frameskip Interval"
-msgstr "Interval når der springes en frame over"
+msgstr ""
+
+#~ msgctxt "#30005"
+#~ msgid "Use Super Game Boy Borders (Restart)"
+#~ msgstr "Brug Super Game Boy-kanter (genstart)"
+
+#~ msgctxt "#30006"
+#~ msgid "Color Correction"
+#~ msgstr "Farvekorrektion"
+
+#~ msgctxt "#30007"
+#~ msgid "Interframe Blending"
+#~ msgstr "Interframe-blanding"
+
+#~ msgctxt "#30008"
+#~ msgid "Audio Filter"
+#~ msgstr "Lydfilter"
+
+#~ msgctxt "#30009"
+#~ msgid "Audio Filter Level"
+#~ msgstr "Niveau for lydfilter"
+
+#~ msgctxt "#30010"
+#~ msgid "Allow Opposing Directional Input"
+#~ msgstr "Tillad input for modsat retning"
+
+#~ msgctxt "#30011"
+#~ msgid "Solar Sensor Level"
+#~ msgstr "Niveau for solsensor"
+
+#~ msgctxt "#30012"
+#~ msgid "Game Boy Player Rumble (Restart)"
+#~ msgstr "Rumble for Game Boy-spiller (genstart)"
+
+#~ msgctxt "#30013"
+#~ msgid "Idle Loop Removal"
+#~ msgstr "Fjernelse af loop ved inaktivitet"
+
+#~ msgctxt "#30014"
+#~ msgid "Frameskip"
+#~ msgstr "Spring frame over"
+
+#~ msgctxt "#30015"
+#~ msgid "Frameskip Threshold (%)"
+#~ msgstr "Tærskel når der springes en frame over (%)"
+
+#~ msgctxt "#30016"
+#~ msgid "Frameskip Interval"
+#~ msgstr "Interval når der springes en frame over"
 
 #~ msgctxt "#30008"
 #~ msgid "Frameskip"

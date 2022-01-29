@@ -46,49 +46,53 @@ msgid "Default Game Boy Palette"
 msgstr ""
 
 msgctxt "#30005"
-msgid "Use Super Game Boy Borders (Restart)"
+msgid "Hardware Preset Game Boy Palettes (Restart)"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Color Correction"
+msgid "Use Super Game Boy Borders (Restart)"
 msgstr ""
 
 msgctxt "#30007"
-msgid "Interframe Blending"
+msgid "Color Correction"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Audio Filter"
+msgid "Interframe Blending"
 msgstr ""
 
 msgctxt "#30009"
-msgid "Audio Filter Level"
+msgid "Audio Filter"
 msgstr ""
 
 msgctxt "#30010"
-msgid "Allow Opposing Directional Input"
+msgid "Audio Filter Level"
 msgstr ""
 
 msgctxt "#30011"
-msgid "Solar Sensor Level"
+msgid "Allow Opposing Directional Input"
 msgstr ""
 
 msgctxt "#30012"
-msgid "Game Boy Player Rumble (Restart)"
+msgid "Solar Sensor Level"
 msgstr ""
 
 msgctxt "#30013"
-msgid "Idle Loop Removal"
+msgid "Game Boy Player Rumble (Restart)"
 msgstr ""
 
 msgctxt "#30014"
-msgid "Frameskip"
+msgid "Idle Loop Removal"
 msgstr ""
 
 msgctxt "#30015"
-msgid "Frameskip Threshold (%)"
+msgid "Frameskip"
 msgstr ""
 
 msgctxt "#30016"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30017"
 msgid "Frameskip Interval"
 msgstr ""
