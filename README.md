@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/kodi-game/game.libretro.mgba.svg?branch=master)](https://travis-ci.org/kodi-game/game.libretro.mgba)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/kodi-game/game.libretro.mgba?svg=true)](https://ci.appveyor.com/project/kodi-game/game-libretro-mgba)
-
 # Nintendo - Game Boy Advance (mGBA)
 
 ### Description
