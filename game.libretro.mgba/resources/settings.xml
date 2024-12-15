@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-	<category label="30000">
+	<category label="128">
 		<setting label="30001" type="select" id="mgba_gb_model" values="Autodetect|Game Boy|Super Game Boy|Game Boy Color|Game Boy Advance" default="Autodetect"/>
 		<setting label="30002" type="select" id="mgba_use_bios" values="ON|OFF" default="ON"/>
 		<setting label="30003" type="select" id="mgba_skip_bios" values="OFF|ON" default="OFF"/>
