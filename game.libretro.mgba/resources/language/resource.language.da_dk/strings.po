@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "mGBA aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack."
 msgstr "mGBA sigter mod at være hurtigere og mere præcis end mange eksisterende Game Boy Advance-emulatorer, samt tilføje funktioner, som andre emulatorer mangler."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Indstillinger"
-
 msgctxt "#30001"
 msgid "Game Boy Model (Restart)"
 msgstr "Game Boy-model (genstart)"
@@ -96,6 +92,10 @@ msgstr "Tærskel når der springes en frame over (%)"
 msgctxt "#30017"
 msgid "Frameskip Interval"
 msgstr "Interval når der springes en frame over"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"
 
 #~ msgctxt "#30005"
 #~ msgid "Use Super Game Boy Borders (Restart)"

@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "mGBA aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack."
 msgstr "mGBA soll schneller und genauer sein als viele bestehende „Game Boy Advance“-Emulatoren und bietet darüber hinaus Funktionen, die anderen Emulatoren fehlen."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Einstellungen"
-
 msgctxt "#30001"
 msgid "Game Boy Model (Restart)"
 msgstr "Game-Boy-Modell (Neustart erforderlich)"
@@ -96,3 +92,7 @@ msgstr "Frameskip-Schwellenwert (%)"
 msgctxt "#30017"
 msgid "Frameskip Interval"
 msgstr "Frameskip-Intervall"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Einstellungen"
