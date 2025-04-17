@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.mgba\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2025-04-11 09:05+0000\n"
+"PO-Revision-Date: 2025-04-17 04:27+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-mgba/sv_se/>\n"
 "Language: sv_se\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11\n"
 
 msgctxt "Addon Summary"
 msgid "Nintendo - Game Boy Advance (mGBA)"
@@ -31,31 +31,33 @@ msgstr "Game Boy-modell (omstart)"
 
 msgctxt "#30002"
 msgid "Use BIOS File if Found (Restart)"
-msgstr ""
+msgstr "Använd BIOS-fil om den hittas (omstart)"
 
 msgctxt "#30003"
 msgid "Skip BIOS Intro (Restart)"
-msgstr ""
+msgstr "Hoppa över BIOS-intro (omstart)"
 
 msgctxt "#30004"
 msgid "Default Game Boy Palette"
-msgstr ""
+msgstr "Standardpalett för Game Boy"
 
+#, fuzzy
 msgctxt "#30005"
 msgid "Hardware Preset Game Boy Palettes (Restart)"
-msgstr ""
+msgstr "Förinställda Game Boy-paletter för maskinvara (omstart)"
 
+#, fuzzy
 msgctxt "#30006"
 msgid "Use Super Game Boy Borders (Restart)"
-msgstr ""
+msgstr "Använd Super Game Boy Borders (Starta om)"
 
 msgctxt "#30007"
 msgid "Color Correction"
-msgstr ""
+msgstr "Färgkorrigering"
 
 msgctxt "#30008"
 msgid "Interframe Blending"
-msgstr ""
+msgstr "Blandning mellan bildrutor"
 
 msgctxt "#30009"
 msgid "Audio Filter"
@@ -63,35 +65,40 @@ msgstr "Ljudfilter"
 
 msgctxt "#30010"
 msgid "Audio Filter Level"
-msgstr ""
+msgstr "Ljudfilternivå"
 
+#, fuzzy
 msgctxt "#30011"
 msgid "Allow Opposing Directional Input"
-msgstr ""
+msgstr "Tillåt motsatta riktningsinmatningar"
 
+#, fuzzy
 msgctxt "#30012"
 msgid "Solar Sensor Level"
-msgstr ""
+msgstr "Nivå för solcellssensor"
 
+#, fuzzy
 msgctxt "#30013"
 msgid "Game Boy Player Rumble (Restart)"
-msgstr ""
+msgstr "Game Boy Player Rumble (omstart)"
 
+#, fuzzy
 msgctxt "#30014"
 msgid "Idle Loop Removal"
-msgstr ""
+msgstr "Borttagning av tomgångsslinga"
 
 msgctxt "#30015"
 msgid "Frameskip"
-msgstr ""
+msgstr "Hoppa över bildrutor"
 
 msgctxt "#30016"
 msgid "Frameskip Threshold (%)"
-msgstr ""
+msgstr "Tröskelvärde för bildöverhoppning (%)"
 
+#, fuzzy
 msgctxt "#30017"
 msgid "Frameskip Interval"
-msgstr ""
+msgstr "Intervall för överhoppning av bildrutor"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
