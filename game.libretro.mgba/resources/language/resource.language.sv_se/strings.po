@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.mgba\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2025-04-17 04:27+0000\n"
+"PO-Revision-Date: 2026-11-02 20:50+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-mgba/sv_se/>\n"
 "Language: sv_se\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 msgctxt "Addon Summary"
 msgid "Nintendo - Game Boy Advance (mGBA)"
@@ -41,15 +41,13 @@ msgctxt "#30004"
 msgid "Default Game Boy Palette"
 msgstr "Standardpalett för Game Boy"
 
-#, fuzzy
 msgctxt "#30005"
 msgid "Hardware Preset Game Boy Palettes (Restart)"
 msgstr "Förinställda Game Boy-paletter för maskinvara (omstart)"
 
-#, fuzzy
 msgctxt "#30006"
 msgid "Use Super Game Boy Borders (Restart)"
-msgstr "Använd Super Game Boy Borders (Starta om)"
+msgstr "Använd Super Game Boy-ramar (omstart)"
 
 msgctxt "#30007"
 msgid "Color Correction"
@@ -67,25 +65,21 @@ msgctxt "#30010"
 msgid "Audio Filter Level"
 msgstr "Ljudfilternivå"
 
-#, fuzzy
 msgctxt "#30011"
 msgid "Allow Opposing Directional Input"
 msgstr "Tillåt motsatta riktningsinmatningar"
 
-#, fuzzy
 msgctxt "#30012"
 msgid "Solar Sensor Level"
-msgstr "Nivå för solcellssensor"
+msgstr "Solsensornivå"
 
-#, fuzzy
 msgctxt "#30013"
 msgid "Game Boy Player Rumble (Restart)"
-msgstr "Game Boy Player Rumble (omstart)"
+msgstr "Game Boy Player-vibration (omstart)"
 
-#, fuzzy
 msgctxt "#30014"
 msgid "Idle Loop Removal"
-msgstr "Borttagning av tomgångsslinga"
+msgstr "Borttagning av tomgångsslingor"
 
 msgctxt "#30015"
 msgid "Frameskip"
@@ -95,10 +89,9 @@ msgctxt "#30016"
 msgid "Frameskip Threshold (%)"
 msgstr "Tröskelvärde för bildöverhoppning (%)"
 
-#, fuzzy
 msgctxt "#30017"
 msgid "Frameskip Interval"
-msgstr "Intervall för överhoppning av bildrutor"
+msgstr "Bildruteöverhoppningsintervall"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
