@@ -49,22 +49,6 @@ msgctxt "#30006"
 msgid "Use Super Game Boy Borders (Restart)"
 msgstr "Brug Super Game Boy-kanter (genstart)"
 
-msgctxt "#30007"
-msgid "Color Correction"
-msgstr "Farvekorrektion"
-
-msgctxt "#30008"
-msgid "Interframe Blending"
-msgstr "Interframe-blanding"
-
-msgctxt "#30009"
-msgid "Audio Filter"
-msgstr "Lydfilter"
-
-msgctxt "#30010"
-msgid "Audio Filter Level"
-msgstr "Niveau for lydfilter"
-
 msgctxt "#30011"
 msgid "Allow Opposing Directional Input"
 msgstr "Tillad input for modsat retning"
@@ -85,13 +69,29 @@ msgctxt "#30015"
 msgid "Frameskip"
 msgstr "Spring frame over"
 
-msgctxt "#30016"
-msgid "Frameskip Threshold (%)"
-msgstr "Tærskel når der springes en frame over (%)"
+#~ msgctxt "#30007"
+#~ msgid "Color Correction"
+#~ msgstr "Farvekorrektion"
 
-msgctxt "#30017"
-msgid "Frameskip Interval"
-msgstr "Interval når der springes en frame over"
+#~ msgctxt "#30008"
+#~ msgid "Interframe Blending"
+#~ msgstr "Interframe-blanding"
+
+#~ msgctxt "#30009"
+#~ msgid "Audio Filter"
+#~ msgstr "Lydfilter"
+
+#~ msgctxt "#30010"
+#~ msgid "Audio Filter Level"
+#~ msgstr "Niveau for lydfilter"
+
+#~ msgctxt "#30016"
+#~ msgid "Frameskip Threshold (%)"
+#~ msgstr "Tærskel når der springes en frame over (%)"
+
+#~ msgctxt "#30017"
+#~ msgid "Frameskip Interval"
+#~ msgstr "Interval når der springes en frame over"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"

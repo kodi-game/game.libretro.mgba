@@ -49,22 +49,6 @@ msgctxt "#30006"
 msgid "Use Super Game Boy Borders (Restart)"
 msgstr "Používat okraje Super Game Boy (vyžaduje restart)"
 
-msgctxt "#30007"
-msgid "Color Correction"
-msgstr "Korekce barev"
-
-msgctxt "#30008"
-msgid "Interframe Blending"
-msgstr "Prolínání mezi snímky"
-
-msgctxt "#30009"
-msgid "Audio Filter"
-msgstr "Zvukový filtr"
-
-msgctxt "#30010"
-msgid "Audio Filter Level"
-msgstr "Úroveň zvukového filtru"
-
 msgctxt "#30011"
 msgid "Allow Opposing Directional Input"
 msgstr "Povolit protichůdné směrové vstupy"
@@ -85,10 +69,26 @@ msgctxt "#30015"
 msgid "Frameskip"
 msgstr "Přeskakování snímků"
 
-msgctxt "#30016"
-msgid "Frameskip Threshold (%)"
-msgstr "Práh přeskakování snímků (%)"
+#~ msgctxt "#30007"
+#~ msgid "Color Correction"
+#~ msgstr "Korekce barev"
 
-msgctxt "#30017"
-msgid "Frameskip Interval"
-msgstr "Interval přeskakování snímků"
+#~ msgctxt "#30008"
+#~ msgid "Interframe Blending"
+#~ msgstr "Prolínání mezi snímky"
+
+#~ msgctxt "#30009"
+#~ msgid "Audio Filter"
+#~ msgstr "Zvukový filtr"
+
+#~ msgctxt "#30010"
+#~ msgid "Audio Filter Level"
+#~ msgstr "Úroveň zvukového filtru"
+
+#~ msgctxt "#30016"
+#~ msgid "Frameskip Threshold (%)"
+#~ msgstr "Práh přeskakování snímků (%)"
+
+#~ msgctxt "#30017"
+#~ msgid "Frameskip Interval"
+#~ msgstr "Interval přeskakování snímků"

@@ -31,15 +31,15 @@ msgstr "Modello Game Boy (richiede riavvio)"
 
 msgctxt "#30002"
 msgid "Use BIOS File if Found (Restart)"
-msgstr "Usa file BIOS se trovato (richiede riavvio)"
+msgstr "Usa il File BIOS se Presente (richiede riavvio)"
 
 msgctxt "#30003"
 msgid "Skip BIOS Intro (Restart)"
-msgstr "Salta intro BIOS (richiede riavvio)"
+msgstr "Salta Intro BIOS (richiede riavvio)"
 
 msgctxt "#30004"
 msgid "Default Game Boy Palette"
-msgstr "Tavolozza Game Boy predefinita"
+msgstr "Tavolozza Game Boy Predefinita"
 
 msgctxt "#30005"
 msgid "Hardware Preset Game Boy Palettes (Restart)"
@@ -47,51 +47,299 @@ msgstr "Tavolozze Game Boy preimpostate hardware (richiede riavvio)"
 
 msgctxt "#30006"
 msgid "Use Super Game Boy Borders (Restart)"
-msgstr "Usa bordi Super Game Boy (richiede riavvio)"
-
-msgctxt "#30007"
-msgid "Color Correction"
-msgstr "Correzione colore"
-
-msgctxt "#30008"
-msgid "Interframe Blending"
-msgstr "Fusione tra frame"
-
-msgctxt "#30009"
-msgid "Audio Filter"
-msgstr "Filtro audio"
-
-msgctxt "#30010"
-msgid "Audio Filter Level"
-msgstr "Livello filtro audio"
+msgstr "Utilizza i Bordi Super Game Boy (richiede riavvio)"
 
 msgctxt "#30011"
 msgid "Allow Opposing Directional Input"
-msgstr "Consenti input direzionale opposto"
+msgstr "Permetti Input Direzionali Opposti"
 
 msgctxt "#30012"
 msgid "Solar Sensor Level"
-msgstr "Livello sensore solare"
+msgstr "Livello Sensore Solare"
 
 msgctxt "#30013"
 msgid "Game Boy Player Rumble (Restart)"
-msgstr "Game Boy Player Rumble (richiede riavvio)"
+msgstr "Vibrazione Game Boy Player (Riavvio)"
 
 msgctxt "#30014"
 msgid "Idle Loop Removal"
-msgstr "Rimozione ciclo inattivo"
+msgstr "Rimozione Idle Loop"
 
 msgctxt "#30015"
 msgid "Frameskip"
-msgstr "Salto fotogrammi"
+msgstr "Salta Frame"
 
-msgctxt "#30016"
-msgid "Frameskip Threshold (%)"
-msgstr "Soglia di salto fotogrammi (%)"
+msgctxt "#30018"
+msgid "System"
+msgstr "Sistema"
 
-msgctxt "#30017"
-msgid "Frameskip Interval"
-msgstr "Intervallo di salto fotogrammi"
+msgctxt "#30019"
+msgid "Configure base hardware selection / BIOS parameters."
+msgstr "Configura i parametri di selezione hardware base / BIOS."
+
+msgctxt "#30020"
+msgid "Runs loaded content with a specific Game Boy model. 'Autodetect' will select the most appropriate model for the current game."
+msgstr "Esegue il contenuto caricato con un modello specifico di Game Boy. 'Rivela Automaticamente' selezionerà il modello più appropriato per il gioco attuale."
+
+msgctxt "#30021"
+msgid "Use official BIOS/bootloader for emulated hardware, if present in RetroArch's system directory."
+msgstr "Usa il BIOS/bootloader ufficiale per hardware emulato, se presente nella cartella di sistema di RetroArch."
+
+msgctxt "#30022"
+msgid "enabled"
+msgstr "si"
+
+msgctxt "#30023"
+msgid "disabled"
+msgstr ""
+
+msgctxt "#30024"
+msgid "When using an official BIOS/bootloader, skip the start-up logo animation. This setting is ignored when 'Use BIOS File if Found' is disabled."
+msgstr "Salta il filmato del logo di avvio se si usa un BIOS/bootloader ufficiale. Questa impostazione è ignorata se 'Usa il file BIOS se presente' è disabilitato."
+
+msgctxt "#30025"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Configure DMG palette / SGB borders."
+msgstr "Configura i bordi della tavolozza DMG / SGB / correzione del colore / effetti fantasma LCD."
+
+msgctxt "#30027"
+msgid "Selects which palette is used for Game Boy games that are not Game Boy Color or Super Game Boy compatible, or if the model is forced to Game Boy."
+msgstr "Seleziona quale tavolozza è utilizzata per i giochi Game Boy che non sono compatibili con Game Boy Color o Super Game Boy, o se il modello è costretto a Game Boy."
+
+msgctxt "#30028"
+msgid "Use the palettes for Game Boy games that have presets on the Game Boy Color or Super Game Boy."
+msgstr ""
+
+msgctxt "#30029"
+msgid "Default Game Boy preset"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Game Boy Color presets only"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Super Game Boy presets only"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Any available presets"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Display Super Game Boy borders when running Super Game Boy enhanced games."
+msgstr "Visualizza i bordi del Super Game Boy quando apri un gioco potenziato dal Super Game Boy."
+
+msgctxt "#30034"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Configure audio filtering."
+msgstr "Configura il filtro audio."
+
+msgctxt "#30036"
+msgid "Low Pass Filter"
+msgstr "Filtro Passaggio-basso"
+
+msgctxt "#30037"
+msgid "Enables a low pass audio filter to reduce the 'harshness' of generated audio."
+msgstr "Abilita un filtro audio passaggio-basso per ridurre la 'durezza' dell'audio generato."
+
+msgctxt "#30038"
+msgid "Filter Level"
+msgstr "Livello Filtro"
+
+msgctxt "#30039"
+msgid "Specifies the cut-off frequency of the low pass audio filter. A higher value increases the perceived 'strength' of the filter, since a wider range of the high frequency spectrum is attenuated."
+msgstr "Specifica la frequenza di cut-off del filtro audio passa-basso. Un valore più elevato aumenta la 'forza' percepita del filtro, poiché una gamma più ampia dello spettro ad alta frequenza è attenuata."
+
+msgctxt "#30040"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30041"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30042"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30043"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30044"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30045"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30046"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30047"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30048"
+msgid "45%"
+msgstr ""
+
+msgctxt "#30049"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30050"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30051"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30052"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30053"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30054"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30055"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30056"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30057"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30058"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Input & Auxiliary Devices"
+msgstr "Dispositivi Di Ingresso E Ausiliari"
+
+msgctxt "#30060"
+msgid "Configure controller / sensor input and controller rumble settings."
+msgstr "Configurare le impostazioni del controller / sensore di ingresso e della vibrazione del controller."
+
+msgctxt "#30061"
+msgid "Enabling this will allow pressing / quickly alternating / holding both left and right (or up and down) directions at the same time. This may cause movement-based glitches."
+msgstr "Attivando questa funzionalità ti permette di premere / alternare velocemente / tenere premuti entrambe le direzioni destra e sinistra (oppure su e giù) allo stesso momento. Potrebbe causare dei glitch di movimento."
+
+msgctxt "#30062"
+msgid "Sets ambient sunlight intensity. Can be used by games that included a solar sensor in their cartridges, e.g: the Boktai series."
+msgstr "Imposta l'intensità solare dell'ambiente. Può essere usato dai giochi che includono un sensore solare nelle loro cartucce, es.: la serie Boktai."
+
+msgctxt "#30063"
+msgid "Use device sensor if available"
+msgstr "Usa sensore dispositivo se disponibile"
+
+msgctxt "#30064"
+msgid "0"
+msgstr ""
+
+msgctxt "#30065"
+msgid "1"
+msgstr ""
+
+msgctxt "#30066"
+msgid "2"
+msgstr ""
+
+msgctxt "#30067"
+msgid "3"
+msgstr ""
+
+msgctxt "#30068"
+msgid "4"
+msgstr ""
+
+msgctxt "#30069"
+msgid "5"
+msgstr ""
+
+msgctxt "#30070"
+msgid "6"
+msgstr ""
+
+msgctxt "#30071"
+msgid "7"
+msgstr ""
+
+msgctxt "#30072"
+msgid "8"
+msgstr ""
+
+msgctxt "#30073"
+msgid "9"
+msgstr ""
+
+msgctxt "#30074"
+msgid "10"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Enabling this will allow compatible games with the Game Boy Player boot logo to make the controller rumble. Due to how Nintendo decided this feature should work, it may cause glitches such as flickering or lag in some of these games."
+msgstr "Abilitando questa opzione i giochi saranno compatibili con il logo di avvio del Game Boy Player per far vibrare il controller. A causa di come Nintendo ha deciso che questa funzione dovrebbe funzionare, può causare problemi come tremolio o ritardo in alcuni di questi giochi."
+
+msgctxt "#30076"
+msgid "Performance"
+msgstr "Prestazioni"
+
+msgctxt "#30077"
+msgid "Configure idle loop removal / frameskipping parameters."
+msgstr "Configura i parametri di rimozione del ciclo inattivo / frameskipping."
+
+msgctxt "#30078"
+msgid "Reduce system load by optimizing so-called 'idle-loops' - sections in the code where nothing happens, but the CPU runs at full speed (like a car revving in neutral). Improves performance, and should be enabled on low-end hardware."
+msgstr "Riduce il carico del sistema ottimizzando gli 'idle-loops' - sezione del codice dove non accade nulla, ma la CPU lavora a velocità massima. Migliora le prestazioni, è consigliato abilitarlo su hardware di bassa fascia."
+
+msgctxt "#30079"
+msgid "Skip frames to improve performance at the expense of visual smoothness. The value set here is the number of frames omitted after a frame is rendered - i.e. '0' = 60fps, '1' = 30fps, '2' = 15fps, etc."
+msgstr "Salta dei frame per migliorare le prestazioni a costo della fluidità dell'immagine. Il valore impostato qui è il numero dei frame rimosso dopo che un frame sia stato renderizzato - ovvero '0' = 60fps, '1' = 30fps, '2' = 15fps, ecc."
+
+#~ msgctxt "#30007"
+#~ msgid "Color Correction"
+#~ msgstr "Correzione colore"
+
+#~ msgctxt "#30008"
+#~ msgid "Interframe Blending"
+#~ msgstr "Fusione tra frame"
+
+#~ msgctxt "#30009"
+#~ msgid "Audio Filter"
+#~ msgstr "Filtro audio"
+
+#~ msgctxt "#30010"
+#~ msgid "Audio Filter Level"
+#~ msgstr "Livello filtro audio"
+
+#~ msgctxt "#30016"
+#~ msgid "Frameskip Threshold (%)"
+#~ msgstr "Soglia di salto fotogrammi (%)"
+
+#~ msgctxt "#30017"
+#~ msgid "Frameskip Interval"
+#~ msgstr "Intervallo di salto fotogrammi"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"

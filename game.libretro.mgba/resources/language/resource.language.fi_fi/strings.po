@@ -27,19 +27,19 @@ msgstr ""
 
 msgctxt "#30001"
 msgid "Game Boy Model (Restart)"
-msgstr ""
+msgstr "Game Boy malli (Uudelleenkäynnistys)"
 
 msgctxt "#30002"
 msgid "Use BIOS File if Found (Restart)"
-msgstr ""
+msgstr "Käytä BIOS-tiedostoa, mikäli se on läsnä (Uudelleenkäynnistys)"
 
 msgctxt "#30003"
 msgid "Skip BIOS Intro (Restart)"
-msgstr ""
+msgstr "Ohita BIOS-alkulataus (Uudelleenkäynnistys)"
 
 msgctxt "#30004"
 msgid "Default Game Boy Palette"
-msgstr ""
+msgstr "Game Boy:n oletus paletti"
 
 msgctxt "#30005"
 msgid "Hardware Preset Game Boy Palettes (Restart)"
@@ -47,27 +47,11 @@ msgstr ""
 
 msgctxt "#30006"
 msgid "Use Super Game Boy Borders (Restart)"
-msgstr ""
-
-msgctxt "#30007"
-msgid "Color Correction"
-msgstr ""
-
-msgctxt "#30008"
-msgid "Interframe Blending"
-msgstr "Vuorokuvien sekoitus"
-
-msgctxt "#30009"
-msgid "Audio Filter"
-msgstr "Äänisuodatin"
-
-msgctxt "#30010"
-msgid "Audio Filter Level"
-msgstr "Äänisuodatuksen taso"
+msgstr "Käytä Super Game Boy -kehyksiä (Uudelleenkäynnistys)"
 
 msgctxt "#30011"
 msgid "Allow Opposing Directional Input"
-msgstr ""
+msgstr "Salli vastakkaisten suuntien syöte"
 
 msgctxt "#30012"
 msgid "Solar Sensor Level"
@@ -75,23 +59,287 @@ msgstr "Aurinkoanturin taso"
 
 msgctxt "#30013"
 msgid "Game Boy Player Rumble (Restart)"
-msgstr ""
+msgstr "Game Boy Player tärinä (Uudelleenkäynnistys)"
 
 msgctxt "#30014"
 msgid "Idle Loop Removal"
-msgstr ""
+msgstr "Joutosilmukan poisto"
 
 msgctxt "#30015"
 msgid "Frameskip"
-msgstr "Kuvaohitus"
+msgstr "Kuvanohitus"
 
-msgctxt "#30016"
-msgid "Frameskip Threshold (%)"
-msgstr "Kuvaohituskynnys (%)"
+msgctxt "#30018"
+msgid "System"
+msgstr "Järjestelmä"
 
-msgctxt "#30017"
-msgid "Frameskip Interval"
-msgstr "Kuvaohitustiheys"
+msgctxt "#30019"
+msgid "Configure base hardware selection / BIOS parameters."
+msgstr "Määritä peruslaitteiston valinta / BIOS-parametrit."
+
+msgctxt "#30020"
+msgid "Runs loaded content with a specific Game Boy model. 'Autodetect' will select the most appropriate model for the current game."
+msgstr "Suorittaa ladattua sisältöä tietyllä Game Boy -mallilla. 'Havaitse automaattisesti' valitsee sopivimman mallin nykyiselle pelille."
+
+msgctxt "#30021"
+msgid "Use official BIOS/bootloader for emulated hardware, if present in RetroArch's system directory."
+msgstr "Käytä virallista BIOS/bootloader -ohjelmaa emuloidulle laitteelle, mikäli ne löytyvät RetroArchin järjestelmäkansiosta."
+
+msgctxt "#30022"
+msgid "enabled"
+msgstr "kyllä"
+
+msgctxt "#30023"
+msgid "disabled"
+msgstr "ei"
+
+msgctxt "#30024"
+msgid "When using an official BIOS/bootloader, skip the start-up logo animation. This setting is ignored when 'Use BIOS File if Found' is disabled."
+msgstr "Kun käytät virallista BIOS/bootloaderia, jätä käynnistyslogo-animaatio väliin. Tämä asetus ohitetaan, kun 'Käytä BIOS-tiedostoa, mikäli se on läsnä\" on pois päältä."
+
+msgctxt "#30025"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Configure DMG palette / SGB borders."
+msgstr "Määritä DMG paletti / SGB rajat / väri korjaus / LCD ghosting-efektit."
+
+msgctxt "#30027"
+msgid "Selects which palette is used for Game Boy games that are not Game Boy Color or Super Game Boy compatible, or if the model is forced to Game Boy."
+msgstr ""
+
+msgctxt "#30028"
+msgid "Use the palettes for Game Boy games that have presets on the Game Boy Color or Super Game Boy."
+msgstr ""
+
+msgctxt "#30029"
+msgid "Default Game Boy preset"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Game Boy Color presets only"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Super Game Boy presets only"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Any available presets"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Display Super Game Boy borders when running Super Game Boy enhanced games."
+msgstr "Näytä Super Game Boy kehykset, kun ajetaan Super Game Boy tehostettuja pelejä."
+
+msgctxt "#30034"
+msgid "Audio"
+msgstr "Ääni"
+
+msgctxt "#30035"
+msgid "Configure audio filtering."
+msgstr "Määritä äänen suodatus."
+
+msgctxt "#30036"
+msgid "Low Pass Filter"
+msgstr "Alipäästösuodatin"
+
+msgctxt "#30037"
+msgid "Enables a low pass audio filter to reduce the 'harshness' of generated audio."
+msgstr "Ota käyttöön alipäästösuodatin vähentääksesi luodun äänen \"karkeutta\"."
+
+msgctxt "#30038"
+msgid "Filter Level"
+msgstr "Suodatustaso"
+
+msgctxt "#30039"
+msgid "Specifies the cut-off frequency of the low pass audio filter. A higher value increases the perceived 'strength' of the filter, since a wider range of the high frequency spectrum is attenuated."
+msgstr "Määritä alipäästösuodattimen katkaisu taajuus. Korkeampi arvo nostaa suodattimen \"vahvuutta\", koska suurempi osuus korkeamman taajuuden spektristä on vaimennettu."
+
+msgctxt "#30040"
+msgid "5%"
+msgstr "5 %"
+
+msgctxt "#30041"
+msgid "10%"
+msgstr "10 %"
+
+msgctxt "#30042"
+msgid "15%"
+msgstr "15 %"
+
+msgctxt "#30043"
+msgid "20%"
+msgstr "20 %"
+
+msgctxt "#30044"
+msgid "25%"
+msgstr "25 %"
+
+msgctxt "#30045"
+msgid "30%"
+msgstr "30 %"
+
+msgctxt "#30046"
+msgid "35%"
+msgstr "35 %"
+
+msgctxt "#30047"
+msgid "40%"
+msgstr "40 %"
+
+msgctxt "#30048"
+msgid "45%"
+msgstr "45 %"
+
+msgctxt "#30049"
+msgid "50%"
+msgstr "50 %"
+
+msgctxt "#30050"
+msgid "55%"
+msgstr "55 %"
+
+msgctxt "#30051"
+msgid "60%"
+msgstr "60 %"
+
+msgctxt "#30052"
+msgid "65%"
+msgstr "65 %"
+
+msgctxt "#30053"
+msgid "70%"
+msgstr "70 %"
+
+msgctxt "#30054"
+msgid "75%"
+msgstr "75 %"
+
+msgctxt "#30055"
+msgid "80%"
+msgstr "80 %"
+
+msgctxt "#30056"
+msgid "85%"
+msgstr "85 %"
+
+msgctxt "#30057"
+msgid "90%"
+msgstr "90 %"
+
+msgctxt "#30058"
+msgid "95%"
+msgstr "95 %"
+
+msgctxt "#30059"
+msgid "Input & Auxiliary Devices"
+msgstr "Syöte- ja lisälaitteet"
+
+msgctxt "#30060"
+msgid "Configure controller / sensor input and controller rumble settings."
+msgstr "Määritä ohjaimen / anturin syötteen ja tärinän asetukset."
+
+msgctxt "#30061"
+msgid "Enabling this will allow pressing / quickly alternating / holding both left and right (or up and down) directions at the same time. This may cause movement-based glitches."
+msgstr "Tämän käyttöönotto sallii painamaan / nopeasti vaihtelemaan / pitämään sekä vasemmalle että oikealle (tai ylös ja alas) samanaikaisesti. Tämä voi aiheuttaa liikkeisiin perustuvia virheitä."
+
+msgctxt "#30062"
+msgid "Sets ambient sunlight intensity. Can be used by games that included a solar sensor in their cartridges, e.g: the Boktai series."
+msgstr "Asettaa ympäristön auringonvalon voimakkuuden. Voidaan käyttää peleissä, jotka sisälsivät aurinkoanturin kaseteissaan, esim. Boktai-sarjassa."
+
+msgctxt "#30063"
+msgid "Use device sensor if available"
+msgstr "Käytä laitteen anturia, mikäli saatavana"
+
+msgctxt "#30064"
+msgid "0"
+msgstr ""
+
+msgctxt "#30065"
+msgid "1"
+msgstr ""
+
+msgctxt "#30066"
+msgid "2"
+msgstr ""
+
+msgctxt "#30067"
+msgid "3"
+msgstr ""
+
+msgctxt "#30068"
+msgid "4"
+msgstr ""
+
+msgctxt "#30069"
+msgid "5"
+msgstr ""
+
+msgctxt "#30070"
+msgid "6"
+msgstr ""
+
+msgctxt "#30071"
+msgid "7"
+msgstr ""
+
+msgctxt "#30072"
+msgid "8"
+msgstr ""
+
+msgctxt "#30073"
+msgid "9"
+msgstr ""
+
+msgctxt "#30074"
+msgid "10"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Enabling this will allow compatible games with the Game Boy Player boot logo to make the controller rumble. Due to how Nintendo decided this feature should work, it may cause glitches such as flickering or lag in some of these games."
+msgstr "Tämän käyttöönotto mahdollistaa Game Boy Player:in kanssa yhteensopivien pelien käyttää tärinää. Siitä miten Nintendo päätti tämän ominaisuuden pitäisi toimia, se saattaa aiheuttaa virheitä, kuten vilkkumista tai viivettä joissakin näistä peleistä."
+
+msgctxt "#30076"
+msgid "Performance"
+msgstr "Suorituskyky"
+
+msgctxt "#30077"
+msgid "Configure idle loop removal / frameskipping parameters."
+msgstr "Määritä joutosilmukan poisto / kuvanohitus parametrit."
+
+msgctxt "#30078"
+msgid "Reduce system load by optimizing so-called 'idle-loops' - sections in the code where nothing happens, but the CPU runs at full speed (like a car revving in neutral). Improves performance, and should be enabled on low-end hardware."
+msgstr "Vähentää järjestelmän kuormitusta optimoimalla niin kutsuttuja \"joutosilmukkoja\" - osioita koodissa, jossa mitään ei tapahdu, mutta prosessori toimii täydellä nopeudella (kuten auto kaasuttelee vapaalla). Parantaa suorituskykyä, ja pitäisi ottaa käyttöön heikkotehoisissa laitteissa."
+
+msgctxt "#30079"
+msgid "Skip frames to improve performance at the expense of visual smoothness. The value set here is the number of frames omitted after a frame is rendered - i.e. '0' = 60fps, '1' = 30fps, '2' = 15fps, etc."
+msgstr "Ohita kuvia välttääksesi äänipuskurin alle ajon (säröily). Parantaa suorituskykyä visuaalisen tasaisuuden kustannuksella. \"Automaatiinen\" ohittaa kuvat käyttöliittymän ohjeistuksen mukaan. \"Automaattinen (Kynnysarvo)\" käyttää \"Kuvienohituksen arvo (%)\"-asetusta. \"Kiinteä aikaväli\" käyttää \"Kiinteä aikaväli\"-asetusta."
+
+#~ msgctxt "#30007"
+#~ msgid "Color Correction"
+#~ msgstr ""
+
+#~ msgctxt "#30008"
+#~ msgid "Interframe Blending"
+#~ msgstr "Vuorokuvien sekoitus"
+
+#~ msgctxt "#30009"
+#~ msgid "Audio Filter"
+#~ msgstr "Äänisuodatin"
+
+#~ msgctxt "#30010"
+#~ msgid "Audio Filter Level"
+#~ msgstr "Äänisuodatuksen taso"
+
+#~ msgctxt "#30016"
+#~ msgid "Frameskip Threshold (%)"
+#~ msgstr "Kuvaohituskynnys (%)"
+
+#~ msgctxt "#30017"
+#~ msgid "Frameskip Interval"
+#~ msgstr "Kuvaohitustiheys"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"

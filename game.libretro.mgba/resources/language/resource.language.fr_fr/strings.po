@@ -27,19 +27,19 @@ msgstr ""
 
 msgctxt "#30001"
 msgid "Game Boy Model (Restart)"
-msgstr ""
+msgstr "Modèle de Game Boy (Redémarrage requis)"
 
 msgctxt "#30002"
 msgid "Use BIOS File if Found (Restart)"
-msgstr ""
+msgstr "Utiliser le fichier BIOS si trouvé (Redémarrage requis)"
 
 msgctxt "#30003"
 msgid "Skip BIOS Intro (Restart)"
-msgstr ""
+msgstr "Ignorer l'intro du BIOS (Redémarrage requis)"
 
 msgctxt "#30004"
 msgid "Default Game Boy Palette"
-msgstr ""
+msgstr "Palette Game Boy par défaut"
 
 msgctxt "#30005"
 msgid "Hardware Preset Game Boy Palettes (Restart)"
@@ -47,51 +47,299 @@ msgstr ""
 
 msgctxt "#30006"
 msgid "Use Super Game Boy Borders (Restart)"
-msgstr ""
-
-msgctxt "#30007"
-msgid "Color Correction"
-msgstr ""
-
-msgctxt "#30008"
-msgid "Interframe Blending"
-msgstr ""
-
-msgctxt "#30009"
-msgid "Audio Filter"
-msgstr ""
-
-msgctxt "#30010"
-msgid "Audio Filter Level"
-msgstr ""
+msgstr "Utiliser les bordures de Super Game Boy (Redémarrage requis)"
 
 msgctxt "#30011"
 msgid "Allow Opposing Directional Input"
-msgstr ""
+msgstr "Autoriser les entrées directionnelles opposées"
 
 msgctxt "#30012"
 msgid "Solar Sensor Level"
-msgstr ""
+msgstr "Niveau du capteur solaire"
 
 msgctxt "#30013"
 msgid "Game Boy Player Rumble (Restart)"
-msgstr ""
+msgstr "Vibration du Game Boy Player (Redémarrage requis)"
 
 msgctxt "#30014"
 msgid "Idle Loop Removal"
-msgstr ""
+msgstr "Suppression de la boucle inactive"
 
 msgctxt "#30015"
 msgid "Frameskip"
+msgstr "Saut d'images"
+
+msgctxt "#30018"
+msgid "System"
+msgstr "Système"
+
+msgctxt "#30019"
+msgid "Configure base hardware selection / BIOS parameters."
+msgstr "Configurer les paramètres de la sélection du matériel de base/du BIOS."
+
+msgctxt "#30020"
+msgid "Runs loaded content with a specific Game Boy model. 'Autodetect' will select the most appropriate model for the current game."
+msgstr "Exécute du contenu chargé avec un modèle de Game Boy émulée spécifique. 'Détection automatique' sélectionnera le modèle le plus approprié pour le jeu en cours."
+
+msgctxt "#30021"
+msgid "Use official BIOS/bootloader for emulated hardware, if present in RetroArch's system directory."
+msgstr "Utiliser le BIOS/bootloader officiel pour le matériel émulé, s'il est présent dans le dossier system de RetroArch."
+
+msgctxt "#30022"
+msgid "enabled"
+msgstr "oui"
+
+msgctxt "#30023"
+msgid "disabled"
+msgstr "non"
+
+msgctxt "#30024"
+msgid "When using an official BIOS/bootloader, skip the start-up logo animation. This setting is ignored when 'Use BIOS File if Found' is disabled."
+msgstr "Lors de l'utilisation d'un BIOS/bootloader officiel, sauter l'animation du logo de démarrage. Ce réglage est ignoré lorsque l'option 'Utiliser le fichier BIOS si trouvé' est désactivée."
+
+msgctxt "#30025"
+msgid "Video"
+msgstr "Vidéo"
+
+msgctxt "#30026"
+msgid "Configure DMG palette / SGB borders."
+msgstr "Configurer la palette DMG/les bordures SGB/la correction des couleurs/les effets de rémanence LCD."
+
+msgctxt "#30027"
+msgid "Selects which palette is used for Game Boy games that are not Game Boy Color or Super Game Boy compatible, or if the model is forced to Game Boy."
+msgstr "Sélectionne quelle palette est utilisée pour les jeux de Game Boy qui ne sont pas compatibles Game Boy Color ou Super Game Boy, ou si le modèle est forcé sur Game Boy."
+
+msgctxt "#30028"
+msgid "Use the palettes for Game Boy games that have presets on the Game Boy Color or Super Game Boy."
 msgstr ""
 
-msgctxt "#30016"
-msgid "Frameskip Threshold (%)"
+msgctxt "#30029"
+msgid "Default Game Boy preset"
 msgstr ""
 
-msgctxt "#30017"
-msgid "Frameskip Interval"
+msgctxt "#30030"
+msgid "Game Boy Color presets only"
 msgstr ""
+
+msgctxt "#30031"
+msgid "Super Game Boy presets only"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Any available presets"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Display Super Game Boy borders when running Super Game Boy enhanced games."
+msgstr "Afficher les bordures Super Game Boy lors de l'exécution de jeux améliorés pour le Super Game Boy."
+
+msgctxt "#30034"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Configure audio filtering."
+msgstr "Configurer le filtrage audio."
+
+msgctxt "#30036"
+msgid "Low Pass Filter"
+msgstr "Filtre passe-bas"
+
+msgctxt "#30037"
+msgid "Enables a low pass audio filter to reduce the 'harshness' of generated audio."
+msgstr "Active un filtre audio passe-bas pour réduire la 'dureté' de l'audio généré."
+
+msgctxt "#30038"
+msgid "Filter Level"
+msgstr "Niveau du filtre"
+
+msgctxt "#30039"
+msgid "Specifies the cut-off frequency of the low pass audio filter. A higher value increases the perceived 'strength' of the filter, since a wider range of the high frequency spectrum is attenuated."
+msgstr "Spécifie la fréquence de coupure du filtre passe-bas audio. Une valeur plus élevée accroît la 'force' perçue du filtre, car une gamme plus large du spectre des hautes fréquences est atténuée."
+
+msgctxt "#30040"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30041"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30042"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30043"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30044"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30045"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30046"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30047"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30048"
+msgid "45%"
+msgstr ""
+
+msgctxt "#30049"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30050"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30051"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30052"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30053"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30054"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30055"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30056"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30057"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30058"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Input & Auxiliary Devices"
+msgstr "Périphériques d'entrées & auxiliaires"
+
+msgctxt "#30060"
+msgid "Configure controller / sensor input and controller rumble settings."
+msgstr "Configurer les réglages d'entrées manettes/capteurs et de vibration."
+
+msgctxt "#30061"
+msgid "Enabling this will allow pressing / quickly alternating / holding both left and right (or up and down) directions at the same time. This may cause movement-based glitches."
+msgstr "L'activation de cette option permettra d'appuyer/d'alterner rapidement/de maintenir les directions gauche et droite (ou haut et bas) en même temps. Cela peut causer des bugs liés au mouvement."
+
+msgctxt "#30062"
+msgid "Sets ambient sunlight intensity. Can be used by games that included a solar sensor in their cartridges, e.g: the Boktai series."
+msgstr "Définit l'intensité ambiante de la lumière du soleil. Peut être utilisée par des jeux qui incluaient un capteur solaire dans leurs cartouches, par exemple : la série Boktai."
+
+msgctxt "#30063"
+msgid "Use device sensor if available"
+msgstr "Utiliser le capteur de l'appareil si disponible"
+
+msgctxt "#30064"
+msgid "0"
+msgstr ""
+
+msgctxt "#30065"
+msgid "1"
+msgstr ""
+
+msgctxt "#30066"
+msgid "2"
+msgstr ""
+
+msgctxt "#30067"
+msgid "3"
+msgstr ""
+
+msgctxt "#30068"
+msgid "4"
+msgstr ""
+
+msgctxt "#30069"
+msgid "5"
+msgstr ""
+
+msgctxt "#30070"
+msgid "6"
+msgstr ""
+
+msgctxt "#30071"
+msgid "7"
+msgstr ""
+
+msgctxt "#30072"
+msgid "8"
+msgstr ""
+
+msgctxt "#30073"
+msgid "9"
+msgstr ""
+
+msgctxt "#30074"
+msgid "10"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Enabling this will allow compatible games with the Game Boy Player boot logo to make the controller rumble. Due to how Nintendo decided this feature should work, it may cause glitches such as flickering or lag in some of these games."
+msgstr "Activer cette option permettra aux jeux compatibles avec le logo de démarrage du Game Boy Player de faire vibrer la manette. En raison de la façon dont Nintendo a décidé que cette fonctionnalité devrait marcher, cela peut causer des bugs tels que scintillement ou latence dans certains de ces jeux."
+
+msgctxt "#30076"
+msgid "Performance"
+msgstr "Performances"
+
+msgctxt "#30077"
+msgid "Configure idle loop removal / frameskipping parameters."
+msgstr "Configurer les réglages de suppression de boucle inactive/de saut d'images."
+
+msgctxt "#30078"
+msgid "Reduce system load by optimizing so-called 'idle-loops' - sections in the code where nothing happens, but the CPU runs at full speed (like a car revving in neutral). Improves performance, and should be enabled on low-end hardware."
+msgstr "Réduire la charge du système en optimisant ce que l'on appelle les 'boucles inactives' — sections dans le code où rien ne se passe, mais où le processeur fonctionne à pleine vitesse (comme une voiture révoquée en neutre). Améliore les performances et devrait être activé sur du matériel de bas de gamme."
+
+msgctxt "#30079"
+msgid "Skip frames to improve performance at the expense of visual smoothness. The value set here is the number of frames omitted after a frame is rendered - i.e. '0' = 60fps, '1' = 30fps, '2' = 15fps, etc."
+msgstr "Sauter des images pour éviter que le tampon audio ne soit sous-exécuté (crépitements). Améliore les performances au détriment de la fluidité visuelle. 'Auto' saute des images lorsque l'interface le conseille. 'Auto (seuil)' utilise le paramètre 'Seuil de saut d'images (%)'. 'Intervalle fixe' utilise le paramètre 'Intervalle de saut d'images'."
+
+#~ msgctxt "#30007"
+#~ msgid "Color Correction"
+#~ msgstr ""
+
+#~ msgctxt "#30008"
+#~ msgid "Interframe Blending"
+#~ msgstr ""
+
+#~ msgctxt "#30009"
+#~ msgid "Audio Filter"
+#~ msgstr ""
+
+#~ msgctxt "#30010"
+#~ msgid "Audio Filter Level"
+#~ msgstr ""
+
+#~ msgctxt "#30016"
+#~ msgid "Frameskip Threshold (%)"
+#~ msgstr ""
+
+#~ msgctxt "#30017"
+#~ msgid "Frameskip Interval"
+#~ msgstr ""
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
