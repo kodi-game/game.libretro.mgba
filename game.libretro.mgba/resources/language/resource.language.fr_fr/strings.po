@@ -317,30 +317,6 @@ msgctxt "#30079"
 msgid "Skip frames to improve performance at the expense of visual smoothness. The value set here is the number of frames omitted after a frame is rendered - i.e. '0' = 60fps, '1' = 30fps, '2' = 15fps, etc."
 msgstr "Sauter des images pour éviter que le tampon audio ne soit sous-exécuté (crépitements). Améliore les performances au détriment de la fluidité visuelle. 'Auto' saute des images lorsque l'interface le conseille. 'Auto (seuil)' utilise le paramètre 'Seuil de saut d'images (%)'. 'Intervalle fixe' utilise le paramètre 'Intervalle de saut d'images'."
 
-#~ msgctxt "#30007"
-#~ msgid "Color Correction"
-#~ msgstr ""
-
-#~ msgctxt "#30008"
-#~ msgid "Interframe Blending"
-#~ msgstr ""
-
-#~ msgctxt "#30009"
-#~ msgid "Audio Filter"
-#~ msgstr ""
-
-#~ msgctxt "#30010"
-#~ msgid "Audio Filter Level"
-#~ msgstr ""
-
-#~ msgctxt "#30016"
-#~ msgid "Frameskip Threshold (%)"
-#~ msgstr ""
-
-#~ msgctxt "#30017"
-#~ msgid "Frameskip Interval"
-#~ msgstr ""
-
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Paramètres"

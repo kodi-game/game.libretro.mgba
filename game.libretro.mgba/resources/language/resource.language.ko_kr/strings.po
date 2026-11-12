@@ -317,30 +317,6 @@ msgctxt "#30079"
 msgid "Skip frames to improve performance at the expense of visual smoothness. The value set here is the number of frames omitted after a frame is rendered - i.e. '0' = 60fps, '1' = 30fps, '2' = 15fps, etc."
 msgstr "오디오 버퍼 언더런(소리깨짐) 을 줄이기 위해 프레임 건너뛰기를 합니다. 시각적인 부드러움을 포기하는 대신 성능이 향상됩니다. '자동'은 프론트엔드의 추천값으로 실행되고 '자동 (임계값)'은 '프레임 건너뛰기 임계값(%)' 설정을 이용해 실행됩니다. '고정 간격'은 '프레임 스킵 간격' 설정을 이용합니다."
 
-#~ msgctxt "#30007"
-#~ msgid "Color Correction"
-#~ msgstr ""
-
-#~ msgctxt "#30008"
-#~ msgid "Interframe Blending"
-#~ msgstr ""
-
-#~ msgctxt "#30009"
-#~ msgid "Audio Filter"
-#~ msgstr ""
-
-#~ msgctxt "#30010"
-#~ msgid "Audio Filter Level"
-#~ msgstr ""
-
-#~ msgctxt "#30016"
-#~ msgid "Frameskip Threshold (%)"
-#~ msgstr ""
-
-#~ msgctxt "#30017"
-#~ msgid "Frameskip Interval"
-#~ msgstr ""
-
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "설정"

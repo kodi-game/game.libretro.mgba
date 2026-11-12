@@ -317,30 +317,6 @@ msgctxt "#30079"
 msgid "Skip frames to improve performance at the expense of visual smoothness. The value set here is the number of frames omitted after a frame is rendered - i.e. '0' = 60fps, '1' = 30fps, '2' = 15fps, etc."
 msgstr "Ignora quadros para evitar o esvaziamento do buffer do áudio (cortes no áudio). Melhora o desempenho ao custo da suavidade visual. A opção 'Automático' ignora os quadros quando for aconselhado pela interface. A opção 'Automático (limite)' utiliza a configuração 'Limite do salto de quadros (%)'. 'Já 'Intervalo fixo', usa a configuração do 'Intervalo de pulo de quadros'."
 
-#~ msgctxt "#30007"
-#~ msgid "Color Correction"
-#~ msgstr ""
-
-#~ msgctxt "#30008"
-#~ msgid "Interframe Blending"
-#~ msgstr ""
-
-#~ msgctxt "#30009"
-#~ msgid "Audio Filter"
-#~ msgstr ""
-
-#~ msgctxt "#30010"
-#~ msgid "Audio Filter Level"
-#~ msgstr ""
-
-#~ msgctxt "#30016"
-#~ msgid "Frameskip Threshold (%)"
-#~ msgstr ""
-
-#~ msgctxt "#30017"
-#~ msgid "Frameskip Interval"
-#~ msgstr ""
-
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Configurações"
