@@ -340,3 +340,7 @@ msgstr "Ohita kuvia välttääksesi äänipuskurin alle ajon (säröily). Parant
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Asetukset"
+
+#~ msgctxt "#30007"
+#~ msgid "Color Correction"
+#~ msgstr ""

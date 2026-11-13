@@ -320,3 +320,27 @@ msgstr "Ignora quadros para evitar o esvaziamento do buffer do áudio (cortes no
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Configurações"
+
+#~ msgctxt "#30007"
+#~ msgid "Color Correction"
+#~ msgstr ""
+
+#~ msgctxt "#30008"
+#~ msgid "Interframe Blending"
+#~ msgstr ""
+
+#~ msgctxt "#30009"
+#~ msgid "Audio Filter"
+#~ msgstr ""
+
+#~ msgctxt "#30010"
+#~ msgid "Audio Filter Level"
+#~ msgstr ""
+
+#~ msgctxt "#30016"
+#~ msgid "Frameskip Threshold (%)"
+#~ msgstr ""
+
+#~ msgctxt "#30017"
+#~ msgid "Frameskip Interval"
+#~ msgstr ""
