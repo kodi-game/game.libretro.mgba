@@ -1,0 +1,29 @@
+From b73bc09dd69d9192f0952cf99b442f830cc76efd Mon Sep 17 00:00:00 2001
+From: Chris <meischris39@hotmail.com>
+Date: Fri, 13 Nov 2026 10:36:38 +0000
+Subject: [PATCH] Don't export every symbol from the libretro core on Windows
+
+mGBA turns on CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS for every Windows build,
+so the MSVC build of the libretro DLL runs CMake's __create_def step to
+list its symbols, and that step crashes on Kodi's Jenkins (cmake -E
+__create_def returns 0xc0000005). The core exports its API through the
+dllexport declarations in libretro.h, so it doesn't need the list.
+---
+ CMakeLists.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 5abd3f7..9e0da09 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1036,6 +1036,7 @@ if(BUILD_LIBRETRO)
+ 	add_library(${BINARY_NAME}_libretro SHARED ${CORE_SRC} ${RETRO_SRC} ${CORE_VFS_SRC})
+ 	add_dependencies(${BINARY_NAME}_libretro ${BINARY_NAME}-version-info)
+ 	set_target_properties(${BINARY_NAME}_libretro PROPERTIES PREFIX "" COMPILE_DEFINITIONS "__LIBRETRO__;COLOR_16_BIT;COLOR_5_6_5;DISABLE_THREADING;MGBA_STANDALONE;${OS_DEFINES};${FUNCTION_DEFINES};ENABLE_VFS;MINIMAL_CORE=2")
++	set_target_properties(${BINARY_NAME}_libretro PROPERTIES WINDOWS_EXPORT_ALL_SYMBOLS OFF)
+ 	target_link_libraries(${BINARY_NAME}_libretro ${OS_LIB})
+ 	if(MSVC)
+ 		install(TARGETS ${BINARY_NAME}_libretro RUNTIME DESTINATION ${LIBRETRO_LIBDIR} COMPONENT ${BINARY_NAME}_libretro)
+-- 
+2.53.0
+
