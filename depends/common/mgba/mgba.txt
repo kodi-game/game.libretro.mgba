@@ -1,1 +1,1 @@
-mgba https://github.com/mgba-emu/mgba/archive/d58ea8a86f30598fbf3958585de3d33028535072.tar.gz
+mgba https://github.com/mgba-emu/mgba/archive/190a68d6095d6d9ce71f0bf56a359d5db5589cfc.tar.gz
